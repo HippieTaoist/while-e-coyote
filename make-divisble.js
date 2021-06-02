@@ -2,7 +2,7 @@
 // Write a program that prompts the user for two numberx, x and y. The program should add one to x until it is divisble by y.
 const prompt = require('prompt-sync')();
 
-console.log('We will be taking two numbers.')
+console.log('We will be taking two numbers.');
 let x = prompt('First number please.   ');
 let numX = Number(x);
 let y = prompt('Second number please.   ');
